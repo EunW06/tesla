@@ -736,6 +736,10 @@
   align-items: center;
 }
 
+.foot-logo img{
+  width: 8.5rem;
+  heigth: 11.1rem;
+
 /* 태블릿모드 */
 @media screen and (max-width: 1400px) {
   .inner {
