@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tesla</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/common.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="script/jquery-3.7.1.min.js"></script>
+    <script src="script/script.js" defer></script>
+    <!-- <script src="script/swiper.js"></script> -->
+  </head>
+  <body>
+    <a href="#main" class="hidden">본문 바로가기</a>
+    <hr />
+
+    <!-- 테슬라 페이지 해더 시작 -->
+    <header id="header">
+      <div class="inner">
+        <nav>
+          <h1 class="logo">
+            <a href="index.html"><i class="hidden">Tesla</i></a>
+          </h1>
+
+          <ul class="gnb">
+            <li>
+              <a href="#">차량</a>
+
+              <ul class="submenu">
+                <li><a href="#">모델 S</a></li>
+                <li><a href="#">모델 3</a></li>
+                <li><a href="#">모델 X</a></li>
+                <li><a href="#">모델 Y</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="#">충전</a>
+              <ul class="submenu">
+                <li><a href="#">윌 커넥터</a></li>
+                <li><a href="#">슈퍼차지</a></li>
+                <li><a href="#">호스트 지원</a></li>
+                <li><a href="#">위치찾기</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">테슬라</a>
+              <ul class="submenu">
+                <li><a href="#">회사정보</a></li>
+                <li><a href="#">채용정보</a></li>
+                <li><a href="#">투자자정보</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">살펴보기</a>
+              <ul class="submenu">
+                <li><a href="#">문의하기</a></li>
+                <li><a href="#">이벤트</a></li>
+                <li><a href="#">고객경험담</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <div class="util-menu">
+            <ul class="util-list">
+              <li>
+                <a href="#" class=""><i class="hidden">고객센터</i></a>
+              </li>
+              <li>
+                <a href="#" class=""><i class="hidden">언어설정</i></a>
+              </li>
+              <li>
+                <a href="#" class=""><i class="hidden">로그인</i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="util-btn">
+            <a href="#"><i class="hidden">menu</i></a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- 헤더 끝 -->
+    <hr />
+
+    <main id="main">
+      <!-- 비쥬얼 시작 -->
+      <section class="visual">
+        <div class="visual-title">
+          <h2>
+            지속 가능한 내일을 위한 오늘의 선택 <br />
+            지금 바로 경험해보세요.
+          </h2>
+          <div class="visual-btn">
+            <a href="#" class="btn-test">시승하기</a>
+            <a href="#" class="btn-buy">구매하기</a>
+          </div>
+        </div>
+      </section>
+      <!-- 비쥬얼 끝 -->
+    </main>
+
+    <!-- 모델 시작-->
+
+    <section class="intro">
+      <div class="sec-title">
+        <h3>Model</h3>
+      </div>
+
+      <div class="top-slider-wrap">
+        <!-- 커스텀 버튼 -->
+        <button type="button" class="btn-prev">
+          <a href="#">
+            <img src="img/left-btn.svg" alt="" />
+          </a>
+        </button>
+        <button type="button" class="btn-next">
+          <a href="#"><img src="img/right-btn.svg" alt="" /></a>
+        </button>
+
+        <div class="pagination"></div>
+
+        <div class="swiper top-slider">
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <h4>Model S</h4>
+              <figure><img src="./img/model-S.png" alt="" /></figure>
+              <a href="#" class="btn-read">자세히보기</a>
+            </div>
+            <div class="swiper-slide">
+              <h4>Model 3</h4>
+              <figure><img src="./img/model-3.png" alt="" /></figure>
+              <a href="#" class="btn-read">자세히보기</a>
+            </div>
+            <div class="swiper-slide">
+              <h4>Model X</h4>
+              <figure><img src="./img/model-X.png" alt="" /></figure>
+              <a href="#" class="btn-read">자세히보기</a>
+            </div>
+            <div class="swiper-slide">
+              <h4>Model Y</h4>
+              <figure><img src="./img/model-Y.png" alt="" /></figure>
+              <a href="#" class="btn-read">자세히보기</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <ul class="model-list">
+        <li>
+          <h4>Model S</h4>
+          <figure><img src="./img/model-S.png" alt="" /></figure>
+          <a href="#" class="btn-read">자세히보기</a>
+        </li>
+        <li>
+          <h4>Model 3</h4>
+          <figure><img src="./img/Model-3.png" alt="" /></figure>
+          <a href="#" class="btn-read">자세히보기</a>
+        </li>
+        <li>
+          <h4>Model X</h4>
+          <figure><img src="./img/model-X.png" alt="" /></figure>
+          <a href="#" class="btn-read">자세히보기</a>
+        </li>
+        <li>
+          <h4>Model Y</h4>
+          <figure><img src="./img/model-Y.png" alt="" /></figure>
+          <a href="#" class="btn-read">자세히보기</a>
+        </li>
+      </ul> -->
+
+      <!-- 모델 끝 -->
+
+      <a href="#"
+        ><i class="ri-arrow-down-s-line"></i> <i class="hidden">더보기</i></a
+      >
+    </section>
+
+    <!-- 기능소개 시작 -->
+
+    <div class="introduction">
+      <div class="inner">
+        <ul class="introduction-list">
+          <li>
+            <!-- <figure> --><img
+              src="./img/Introduction1.png"
+              alt=""
+            /><!-- </figure> -->
+            <div class="right-text">
+              <dl>
+                <dt>탁월한 감지 능력</dt>
+                <dd>
+                  8대의 카메라와 강력한 비전 처리로 360도 시야를 제공하여
+                  보행자, 자전거 및 차량과 같은 주변 물체를 감지합니다.
+                </dd>
+              </dl>
+              <div class="btn-wrap">
+                <a href="#" class="btn-1">자세히보기</a>
+                <a href="#" class="btn-2">주문하기</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="./img/Introduction2.png" alt="" />
+            <div class="left-text">
+              <dl>
+                <dt>미래지향적 인테리어</dt>
+                <dd>
+                  시네마틱 경험, 요크 스티어링 휠, 완벽한 주행 환경, 새롭게
+                  설계된 2열 좌석,Tesla 아케이드 등등 미래지향적 인테리어를
+                  제공합니다.
+                </dd>
+              </dl>
+              <div class="left-btn-wrap">
+                <a href="#" class="btn-1">자세히보기</a>
+                <a href="#" class="btn-2">주문하기</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="./img/Introduction3.png" alt="" />
+            <div class="right-text">
+              <dl>
+                <dt>Tesla 앱 지원</dt>
+                <dd>
+                  차량 및 실내 온도 조절 장치 사용하기, 충전 통계 확인하기 등등
+                  서비스를 제공하며, 테슬라 앱은 소유자가 언제 어디서나 차량과
+                  에너지 제품과 직접 소통할 수 있게 해줍니다.
+                </dd>
+              </dl>
+              <div class="btn-wrap">
+                <a href="#" class="btn-1">자세히보기</a>
+                <a href="#" class="btn-2">주문하기</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 기능소개 끝 -->
+
+    <!-- 충전 소개 -->
+
+    <section class="card">
+      <div class="sec-title">
+        <h2>충전</h2>
+      </div>
+
+      <div class="card-list">
+        <div class="card1">
+          <img src="./img/charge-host.png" alt="" />
+          <h5 class="card-text">
+            충전소 호스트<br />
+            지원하기
+          </h5>
+        </div>
+
+        <div class="card2">
+          <img src="./img/connecter.png" alt="" />
+          <h5 class="card-text2">윌 커넥터</h5>
+        </div>
+        <div class="card3">
+          <img src="./img/superchager.png" alt="" />
+          <h5 class="card-text3">슈퍼차지</h5>
+        </div>
+        <div class="card4">
+          <img src="./img/map.png" alt="" />
+          <h5 class="card-text4">충전소 위치</h5>
+        </div>
+      </div>
+    </section>
+
+    <!-- 충전 소개 끝 -->
+
+    <!-- 액세서리 시작 -->
+
+    <section class="shop">
+      <div class="inner">
+        <div class="shop-title">
+          <h2>액세서리</h2>
+        </div>
+        <ul class="shop-gnb">
+          <li>차량 액세서리</li>
+          <li>의류</li>
+          <li>라이프스타일</li>
+          <li class="plus">더 알아보기 ></li>
+        </ul>
+        <ul class="shop-list">
+          <li>
+            <figure>
+              <img src="./img/shop1.png" alt="" />
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="./img/shop2.png" alt="" />
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="./img/shop3.png" alt="" />
+            </figure>
+          </li>
+        </ul>
+      </div>
+      <!-- <div class="swipe-btn">
+        <div class="left-btn"></div>
+        <div class="right-btn"></div>
+      </div> -->
+    </section>
+
+    <!-- 액세서리 끝 -->
+
+    <!-- 아웃트로 시작 -->
+
+    <section class="outro">
+      <div class="outro-wrap">
+        <!-- flex용 -->
+        <div class="outro-text">
+          <h2>Power Earth</h2>
+          <p>
+            Tesla는 대규모로 확장할 수 있는 지속 가능 시스템을 설계하여<br />
+            최대한의 환경적 이점을 제공합니다.<br />
+            Tesla의 에너지 생산 및 저장 장치는 전기차와 함께 작동하여<br />
+            영향력을 강화합니다.
+          </p>
+        </div>
+
+        <!-- 오른쪽 영역 전체 -->
+        <div class="outro-right">
+          <div class="outro-card1">
+            <dl>
+              <dt>Solar</dt>
+              <dd>주거 및 상업용 태양광 에너지 생산</dd>
+            </dl>
+          </div>
+          <div class="outro-card2">
+            <dl>
+              <dt>Solar</dt>
+              <dd>청정 에너지 저장을 위한 배터리 설치</dd>
+            </dl>
+          </div>
+          <div class="outro-card3">
+            <dl>
+              <dt>Solar</dt>
+              <dd>청정 에너지로 충전할 수 있는 배출가스 제로 차량 제조</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 아웃트로 끝 -->
+
+    <footer id="footer">
+      <div class="inner">
+        <ul class="footer-title">
+          <li>Tesla ⓒ 2024</li>
+          <div class="sec">
+            <li class="">개인정보 처리방침 및 법적고지</li>
+            <li>이용 약관</li>
+            <li>문의하기</li>
+            <li>새 소식</li>
+            <li>위치</li>
+          </div>
+        </ul>
+        <div class="footer-text">
+          <p>
+            테슬라코리아 유환회사 | 사업자등록번호 : 524-88-00237 |
+            데이비드존파인스타인, 케네스어니스트무어 | 통신판매업
+          </p>
+          <p>
+            신고: 제2016-서울강남-02964호 | 사업자정보확인 | 호스팅제공자: Tesla
+            Inc. | 주소 : 서울특별시 강남구 테헤란로
+          </p>
+          <p>134, 14층 | 대표전화 : 080-617-1388 | southkorea@tesla.com</p>
+        </div>
+
+        <strong class="foot-logo"
+          ><img src="./img/footer-logo.png" alt=""
+        /></strong>
+      </div>
+    </footer>
+  </body>
+</html>
