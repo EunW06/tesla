@@ -49,10 +49,9 @@
 
 .submenu {
   position: absolute;
-  top: 43px;
+  /* top: 43px; */
   left: 0;
   width: 100%;
-  /* background: #5f5; */
 
   /* jQuery로 동작을 만들기 위한 준비 */
   display: none;
@@ -60,13 +59,22 @@
   z-index: 10;
 }
 
+.submenu li {
+  /* background: rgba(0, 0, 0, 0.6); */
+  border-radius: 15px;
+  margin-bottom: 0.1rem;
+}
+
 .submenu li a {
   display: block;
-  /* border: 1px solid #ff0; */
   padding: 10px;
   text-align: center;
-  /* background: #333; */
   color: #fff !important;
+  z-index: 10;
+}
+
+.submenu li a:hover {
+  color: var(--main-color) !important;
 }
 
 .gnb > li.on a {
@@ -151,7 +159,8 @@
 .visual-btn {
   display: flex;
   margin-top: 4rem;
-  gap: 3rem;
+  gap: 4rem;
+  justify-content: center;
 }
 
 .visual-btn a {
@@ -168,7 +177,7 @@
   border-radius: 15px;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   color: var(--dark-100);
   background: var(--sub-color);
   /* margin-left: 17rem; */
@@ -186,7 +195,7 @@
   border-radius: 15px;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   background: var(--main-color);
   /* margin-right: 17rem; */
   transition: 0.4s;
